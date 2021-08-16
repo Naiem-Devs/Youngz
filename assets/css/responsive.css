@@ -1,0 +1,125 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .container{
+        min-width: 300px;
+        margin: auto;
+    }
+    .sgl_item {
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .sgl_left a {
+        font-size: 14px;
+    }
+    
+    .src_bar input {
+        width: 170px;
+        margin-left: 10px;
+    }
+    
+    .logo a img {
+        max-width: 200px;
+    }
+    
+    .logo {}
+    
+    .sgl_item img {
+        width: 90px;
+    }
+    
+    .sgl_btm a img {
+        width: max-content;
+    }
+    
+    .sgl_left {}
+    
+    .sgl_btm {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .sgl_btm a {
+        margin-bottom: 6px;
+    }
+    
+    .src_bar img {
+        width: 50px;
+    }
+    
+    .src_bar {
+        border-radius: 30px;
+    }
+    
+    .slider_sec .owl-nav {
+        left: 50%;
+        max-width: 600px;
+        transform: translateX(-50%);
+    }
+
+    /* jOB Start */
+    .contact_b {
+        margin: auto;
+        margin-top: 0;
+    }
+    .cont_title h1 {
+        width: 300px;
+    }
+    
+    img.hd_bg {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .call {
+        flex-wrap: wrap;
+    }
+    
+    .call a {
+        margin-bottom: 10px;
+        width: 220px;
+        height: 80px;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {}
+.sgl_left a{
+    font-size: 18px;
+}
+.sgl_item img{
+    width: unset;
+}
+.src_bar input{
+    width: 332px;
+    font-weight: 700;
+}
+.src_bar img{
+    width: unset;
+}
+img.hd_bg {
+    width: 100%;
+}
+
+}
